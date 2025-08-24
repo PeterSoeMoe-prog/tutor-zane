@@ -1,0 +1,148 @@
+  {
+  "levels": [
+    {
+      "id": "beginner",
+      "title": "Beginner",
+      "units": [
+        {
+          "id": "unit1",
+          "title": "Unit 1",
+          "lessons": [
+            {"id": "beg01", "title": "Greetings", "description": "Common English greetings and responses.", "youtubeId": "dQw4w9WgXcQ", "questions": [
+              {"text": "What is a common way to say hello?", "options": ["Goodbye", "Hello", "See you", "Later"], "correctIndex": 1},
+              {"text": "How do you reply to 'How are you?' in a simple way?", "options": ["I am fine, thank you.", "Blue.", "At home.", "Tomorrow."], "correctIndex": 0},
+              {"text": "Choose a polite greeting for the morning.", "options": ["Good night", "Good morning", "Good evening", "Bye"], "correctIndex": 1},
+              {"text": "What do you say after someone says 'Thank you'?", "options": ["Please", "You're welcome", "Sorry", "Yes"], "correctIndex": 1},
+              {"text": "Pick the best phrase to introduce yourself.", "options": ["I'm sorry", "Nice to meet you", "Go away", "See you"], "correctIndex": 1}
+            ]},
+            {"id": "beg02", "title": "Alphabet Basics", "description": "Letters and pronunciation.", "youtubeId": "BaW_jenozKc", "questions": []},
+            {"id": "beg03", "title": "Numbers 1–20", "description": "Counting and saying numbers.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+            {"id": "beg04", "title": "Days & Months", "description": "Calendar words and pronunciation.", "youtubeId": "CFhr08ckFXg", "questions": []},
+            {"id": "beg05", "title": "Colors", "description": "Basic color vocabulary.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+            {"id": "beg06", "title": "Family Words", "description": "Mother, father, sister, etc.", "youtubeId": "gNp__fL2wIo", "questions": []}
+          ]
+        },
+        {
+          "id": "unit2",
+          "title": "Unit 2",
+          "lessons": [
+            {"id": "beg07", "title": "Introducing Yourself", "description": "Name, age, where you’re from.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+            {"id": "beg08", "title": "Classroom Objects", "description": "Pen, book, desk, etc.", "youtubeId": "BaW_jenozKc", "questions": []},
+            {"id": "beg09", "title": "Simple Verbs", "description": "Go, come, eat, drink.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+            {"id": "beg10", "title": "Food Basics", "description": "Common foods and ordering.", "youtubeId": "CFhr08ckFXg", "questions": []},
+            {"id": "beg11", "title": "Places in Town", "description": "Bank, school, market, etc.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+            {"id": "beg12", "title": "Daily Routine", "description": "Wake up, go to work, sleep.", "youtubeId": "gNp__fL2wIo", "questions": []}
+          ]
+        }
+      ],
+      "lessons": [
+        {"id": "beg01", "title": "Greetings", "description": "Common English greetings and responses.", "youtubeId": "dQw4w9WgXcQ", "questions": [
+          {"text": "What is a common way to say hello?", "options": ["Goodbye", "Hello", "See you", "Later"], "correctIndex": 1},
+          {"text": "How do you reply to 'How are you?' in a simple way?", "options": ["I am fine, thank you.", "Blue.", "At home.", "Tomorrow."], "correctIndex": 0},
+          {"text": "Choose a polite greeting for the morning.", "options": ["Good night", "Good morning", "Good evening", "Bye"], "correctIndex": 1},
+          {"text": "What do you say after someone says 'Thank you'?", "options": ["Please", "You're welcome", "Sorry", "Yes"], "correctIndex": 1},
+          {"text": "Pick the best phrase to introduce yourself.", "options": ["I'm sorry", "Nice to meet you", "Go away", "See you"], "correctIndex": 1}
+        ]},
+        {"id": "beg02", "title": "Alphabet Basics", "description": "Letters and pronunciation.", "youtubeId": "BaW_jenozKc", "questions": []},
+        {"id": "beg03", "title": "Numbers 1–20", "description": "Counting and saying numbers.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+        {"id": "beg04", "title": "Days & Months", "description": "Calendar words and pronunciation.", "youtubeId": "CFhr08ckFXg", "questions": []},
+        {"id": "beg05", "title": "Colors", "description": "Basic color vocabulary.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+        {"id": "beg06", "title": "Family Words", "description": "Mother, father, sister, etc.", "youtubeId": "gNp__fL2wIo", "questions": []},
+        {"id": "beg07", "title": "Introducing Yourself", "description": "Name, age, where you’re from.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+        {"id": "beg08", "title": "Classroom Objects", "description": "Pen, book, desk, etc.", "youtubeId": "BaW_jenozKc", "questions": []},
+        {"id": "beg09", "title": "Simple Verbs", "description": "Go, come, eat, drink.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+        {"id": "beg10", "title": "Food Basics", "description": "Common foods and ordering.", "youtubeId": "CFhr08ckFXg", "questions": []},
+        {"id": "beg11", "title": "Places in Town", "description": "Bank, school, market, etc.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+        {"id": "beg12", "title": "Daily Routine", "description": "Wake up, go to work, sleep.", "youtubeId": "gNp__fL2wIo", "questions": []}
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermediate",
+      "units": [
+        {
+          "id": "unit1",
+          "title": "Unit 1",
+          "lessons": [
+            {"id": "int01", "title": "Everyday Conversations", "description": "Small talk and common phrases.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+            {"id": "int02", "title": "Past vs Present", "description": "Simple past and present usage.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+            {"id": "int03", "title": "Future Plans", "description": "Talking about the future.", "youtubeId": "BaW_jenozKc", "questions": []},
+            {"id": "int04", "title": "Comparatives & Superlatives", "description": "Bigger, the biggest, etc.", "youtubeId": "CFhr08ckFXg", "questions": []},
+            {"id": "int05", "title": "Phrasal Verbs 1", "description": "Common phrasal verbs and meanings.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+            {"id": "int06", "title": "Modal Verbs", "description": "Can, should, must.", "youtubeId": "gNp__fL2wIo", "questions": []}
+          ]
+        },
+        {
+          "id": "unit2",
+          "title": "Unit 2",
+          "lessons": [
+            {"id": "int07", "title": "Describing People", "description": "Appearance and personality.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+            {"id": "int08", "title": "At the Restaurant", "description": "Ordering and polite requests.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+            {"id": "int09", "title": "Travel English", "description": "Airports, hotels, directions.", "youtubeId": "BaW_jenozKc", "questions": []},
+            {"id": "int10", "title": "Health & Appointments", "description": "Symptoms and booking.", "youtubeId": "CFhr08ckFXg", "questions": []},
+            {"id": "int11", "title": "Work & Jobs", "description": "Talking about your job.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+            {"id": "int12", "title": "Opinions & Debates", "description": "Agreeing and disagreeing.", "youtubeId": "gNp__fL2wIo", "questions": []}
+          ]
+        }
+      ],
+      "lessons": [
+        {"id": "int01", "title": "Everyday Conversations", "description": "Small talk and common phrases.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+        {"id": "int02", "title": "Past vs Present", "description": "Simple past and present usage.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+        {"id": "int03", "title": "Future Plans", "description": "Talking about the future.", "youtubeId": "BaW_jenozKc", "questions": []},
+        {"id": "int04", "title": "Comparatives & Superlatives", "description": "Bigger, the biggest, etc.", "youtubeId": "CFhr08ckFXg", "questions": []},
+        {"id": "int05", "title": "Phrasal Verbs 1", "description": "Common phrasal verbs and meanings.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+        {"id": "int06", "title": "Modal Verbs", "description": "Can, should, must.", "youtubeId": "gNp__fL2wIo", "questions": []},
+        {"id": "int07", "title": "Describing People", "description": "Appearance and personality.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+        {"id": "int08", "title": "At the Restaurant", "description": "Ordering and polite requests.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+        {"id": "int09", "title": "Travel English", "description": "Airports, hotels, directions.", "youtubeId": "BaW_jenozKc", "questions": []},
+        {"id": "int10", "title": "Health & Appointments", "description": "Symptoms and booking.", "youtubeId": "CFhr08ckFXg", "questions": []},
+        {"id": "int11", "title": "Work & Jobs", "description": "Talking about your job.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+        {"id": "int12", "title": "Opinions & Debates", "description": "Agreeing and disagreeing.", "youtubeId": "gNp__fL2wIo", "questions": []}
+      ]
+    },
+    {
+      "id": "samples",
+      "title": "Advance",
+      "units": [
+        {
+          "id": "unit1",
+          "title": "Unit 1",
+          "lessons": [
+            {"id": "adv01", "title": "Advanced Grammar 1", "description": "Complex structures and clauses.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+            {"id": "adv02", "title": "Advanced Grammar 2", "description": "Conditionals and inversions.", "youtubeId": "CFhr08ckFXg", "questions": []},
+            {"id": "adv03", "title": "Academic Vocabulary 1", "description": "High-frequency academic words.", "youtubeId": "gNp__fL2wIo", "questions": []},
+            {"id": "adv04", "title": "Academic Vocabulary 2", "description": "Collocations and usage.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+            {"id": "adv05", "title": "Listening Practice 1", "description": "Note-taking strategies.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+            {"id": "adv06", "title": "Listening Practice 2", "description": "Detecting tone and intent.", "youtubeId": "BaW_jenozKc", "questions": []}
+          ]
+        },
+        {
+          "id": "unit2",
+          "title": "Unit 2",
+          "lessons": [
+            {"id": "adv07", "title": "Speaking Fluency 1", "description": "Fluency and coherence.", "youtubeId": "CFhr08ckFXg", "questions": []},
+            {"id": "adv08", "title": "Speaking Fluency 2", "description": "Reducing filler words.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+            {"id": "adv09", "title": "Writing Task 1", "description": "Organizing your ideas.", "youtubeId": "gNp__fL2wIo", "questions": []},
+            {"id": "adv10", "title": "Writing Task 2", "description": "Argument structure.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+            {"id": "adv11", "title": "Idioms & Expressions", "description": "Natural, native-like phrases.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+            {"id": "adv12", "title": "News & Debates", "description": "Discussing complex topics.", "youtubeId": "BaW_jenozKc", "questions": []}
+          ]
+        }
+      ],
+      "lessons": [
+        {"id": "adv01", "title": "Advanced Grammar 1", "description": "Complex structures and clauses.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+        {"id": "adv02", "title": "Advanced Grammar 2", "description": "Conditionals and inversions.", "youtubeId": "CFhr08ckFXg", "questions": []},
+        {"id": "adv03", "title": "Academic Vocabulary 1", "description": "High-frequency academic words.", "youtubeId": "gNp__fL2wIo", "questions": []},
+        {"id": "adv04", "title": "Academic Vocabulary 2", "description": "Collocations and usage.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+        {"id": "adv05", "title": "Listening Practice 1", "description": "Note-taking strategies.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+        {"id": "adv06", "title": "Listening Practice 2", "description": "Detecting tone and intent.", "youtubeId": "BaW_jenozKc", "questions": []},
+        {"id": "adv07", "title": "Speaking Fluency 1", "description": "Fluency and coherence.", "youtubeId": "CFhr08ckFXg", "questions": []},
+        {"id": "adv08", "title": "Speaking Fluency 2", "description": "Reducing filler words.", "youtubeId": "ExeWLq8B4s0", "questions": []},
+        {"id": "adv09", "title": "Writing Task 1", "description": "Organizing your ideas.", "youtubeId": "gNp__fL2wIo", "questions": []},
+        {"id": "adv10", "title": "Writing Task 2", "description": "Argument structure.", "youtubeId": "M7lc1UVf-VE", "questions": []},
+        {"id": "adv11", "title": "Idioms & Expressions", "description": "Natural, native-like phrases.", "youtubeId": "dQw4w9WgXcQ", "questions": []},
+        {"id": "adv12", "title": "News & Debates", "description": "Discussing complex topics.", "youtubeId": "BaW_jenozKc", "questions": []}
+      ]
+    }
+  ]
+}
