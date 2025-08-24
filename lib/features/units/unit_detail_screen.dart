@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 
 import '../../providers/content_providers.dart';
 import '../../models/level.dart';
+import '../../models/unit_dto.dart';
 
 class UnitDetailScreen extends ConsumerWidget {
   const UnitDetailScreen({super.key, required this.levelId, required this.unitNumber});
@@ -27,29 +28,47 @@ class UnitDetailScreen extends ConsumerWidget {
             return const Center(child: Text('Level not found'));
           }
 
-          final start = (unitNumber - 1) * unitSize;
-          if (start < 0 || start >= level.lessons.length) {
-            return const Center(child: Text('Unit not found'));
-          }
-          final end = (start + unitSize) > level.lessons.length ? level.lessons.length : (start + unitSize);
-          final lessons = level.lessons.sublist(start, end);
+          // Try real units first
+          final asyncUnits = ref.watch(unitsByLevelProvider(level.id));
+          return asyncUnits.when(
+            data: (List<UnitDTO>? units) {
+              List lessons;
+              if (units != null && units.isNotEmpty) {
+                final idx = unitNumber - 1;
+                if (idx < 0 || idx >= units.length) {
+                  return const Center(child: Text('Unit not found'));
+                }
+                lessons = units[idx].lessons;
+              } else {
+                // Fallback chunking
+                final start = (unitNumber - 1) * unitSize;
+                if (start < 0 || start >= level.lessons.length) {
+                  return const Center(child: Text('Unit not found'));
+                }
+                final end = (start + unitSize) > level.lessons.length ? level.lessons.length : (start + unitSize);
+                lessons = level.lessons.sublist(start, end);
+              }
 
-          return ListView.builder(
-            itemCount: lessons.length,
-            itemBuilder: (context, index) {
-              final lesson = lessons[index];
-              return Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 4.0),
-                child: Card(
-                  child: ListTile(
-                    title: Text(lesson.title),
-                    subtitle: Text(lesson.description),
-                    trailing: const Icon(Icons.play_circle_fill),
-                    onTap: () => context.go('/levels/video/${lesson.youtubeId}')
-                  ),
-                ),
+              return ListView.builder(
+                itemCount: lessons.length,
+                itemBuilder: (context, index) {
+                  final lesson = lessons[index];
+                  return Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 4.0),
+                    child: Card(
+                      child: ListTile(
+                        title: Text(lesson.title),
+                        subtitle: Text(lesson.description),
+                        trailing: const Icon(Icons.play_circle_fill),
+                        onTap: () => context.go('/levels/video/${lesson.youtubeId}')
+                      ),
+                    ),
+                  );
+                },
               );
             },
+            loading: () => const Center(child: CircularProgressIndicator()),
+            error: (e, st) => Center(child: Text('Failed to load unit: $e')),
           );
         },
         loading: () => const Center(child: CircularProgressIndicator()),
